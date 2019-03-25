@@ -10,6 +10,14 @@
     <artifactId>deepexi-service-a-api</artifactId>
     <packaging>jar</packaging>
 
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.codehaus.jackson/jackson-mapper-asl -->
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-asl</artifactId>
+            <version>1.5.0</version>
+        </dependency>
+    </dependencies>
     <build>
         <plugins>
             <!--源码打包-->
